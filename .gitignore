@@ -1,1 +1,47 @@
 **/node_modules/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# Environment files
+*.env
+.env.*
+
+# Logs and debug
+*.log
+*.pid
+*.gz
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode settings (if any)
+.vscode/
+
+# macOS, Linux, Windows junk
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+.cache/
+
+# MyPy, Coverage, Pyre
+.mypy_cache/
+.coverage
+htmlcov/
+.pyre/
+
+# Installer artifacts
+build/
+dist/
+*.egg-info/
+
+# Local Python settings
+.python-version
